@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="http://etvnet.com"
+	plugin="http://etvnet.com"
+	identifier="com.plexapp.plugins.etvnet2"
+	initialState="wait-for-frame-load"
+	version="1.0">
+<run script="
+document.getElementById('id_username').value='${username}';
+document.getElementById('id_password').value='${password}';
+document.getElementById('login-frm').submit();
+" />
+<visit url="${url}" />
+</site>

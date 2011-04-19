@@ -1,0 +1,59 @@
+[
+	{
+        "id": "username",
+        "type": "text",
+        "label": "Пользователь",
+        "default": ""
+    },
+    {
+        "id": "password",
+        "type": "text",
+        "label": "Пароль",
+        "default": "",
+        "option": "hidden"
+    },
+	{
+        "id": "hidecat",
+        "type": "bool",
+        "label": "Скрыть Категории",
+        "default": "False"
+    },
+	{
+        "id": "perpage",
+        "type": "text",
+        "label": "Строк на странице",
+        "default": "30"
+    },
+	{
+	    "id":"sort",
+	    "type":"enum",
+	    "label":"Сортировка",
+	    "values":["По эфиру", "По году", "Но названию", "По рейтингу"],
+	    "default":"По эфиру"
+	},
+	{
+	    "id":"direction",
+	    "type":"enum",
+	    "label":"Направление сортировки",
+	    "values":["По убыванию", "По возрастанию"],
+	    "default":"По убыванию"
+	},
+	{
+        "id": "cyrillic",
+        "type": "bool",
+        "label": "Испрользовать транслитерацию",
+        "default": "False"
+    },
+	{
+        "id": "usedetails",
+        "type": "bool",
+        "label": "Загружать описания",
+        "default": "False"
+    },
+	{
+        "id": "updates",
+        "type": "bool",
+        "label": "Прверять обновления",
+        "default": "True"
+    }
+]
